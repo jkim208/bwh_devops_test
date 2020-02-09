@@ -1,8 +1,7 @@
 # Coding test for Bioinformatics DevOps1
 
 ## Folder contents
-Scripts that address each of the 3 Bioinformatics tasks
-Sample input files to be used with scripts
+The python scripts address each of the 3 Bioinformatics tasks. Sample input files to be used with scripts.
 
 ## Directions
 All the scripts have a '-h' switch for more information on how to run. Some examples below:
