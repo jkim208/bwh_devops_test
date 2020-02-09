@@ -49,8 +49,8 @@ def main():
                 if checkFastqHeader(fastq = os.path.join(root, file)) == True:
                     with open(os.path.join(root, file)) as f:
                         percentG30 = processFastqSeqs(fastq = f)
-                        print("This FASTQ file has ", str(percentG30), \
-                            "% of its sequences that are > 30 nucleotides long\n", sep='')
+                        print("This FASTQ file has", str(percentG30), \
+                            "% of its sequences that are > 30 nucleotides long\n")
     return
 
 if __name__ == '__main__':
